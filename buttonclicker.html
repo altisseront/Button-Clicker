@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProfilePage</title>
+    <link rel="stylesheet" href="buttonclicker.css">
+    <script src="buttonclicker.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <ul class="nav-links">
+            <div class="nav-title">Dojonary</div>
+        </ul>
+        <input type="text" name="lastName" class="searchbar">
+        <ul class="nav-links">
+            <li><button class="btn" onclick="login(this)">Login</button></li>
+        </ul>
+    </div>
+    <div class="mainpage">
+        <div class="col1">
+            <div class="sec1">
+                <div class="left1">
+                    <div class="ninja">ninja</div>
+                    <div class="noun">noun</div>
+                    <div class="plural">Plural: ninjas</div>
+                    <button class="likes1" onclick="alert('Ninja was liked')"><span>37</span> likes</button>
+                </div>
+                <div class="right1">
+                    <div class="def">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="">ninjutsu</a></div>
+                </div>
+            </div>
+            <div class="sec2">
+                <div class="left2">
+                    <div class="ninja">ninja</div>
+                    <div class="noun">noun</div>
+                    <div class="plural">Plural: ninjas</div>
+                    <button class="likes2" onclick="alert('Ninja was liked')"> <span>12</span> likes</button>
+                </div>
+                <div class="right2">
+                    <div class="def">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</div>
+                </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="adddef">
+                <p class="buttext">Dojonary is defined by <span class="bold">YOU</span></p>
+                <button class="adddefbutton" onclick="remove(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+
+</body>
+
+</html>
