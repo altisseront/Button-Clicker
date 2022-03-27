@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    background-color: rgb(19, 218, 224);
+}
 .col1 {
     height: 800px;
     flex: 2;
@@ -8,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    background-color: rgb(19, 218, 224);
 }
 .col2 {
     height: 800px;
@@ -30,6 +40,8 @@
     height: 30%;
     margin-bottom: 80px;
     border: 4px solid black;
+    background-color: slateblue;
+
 }
 .searchbar {
     height: 30px;
@@ -57,7 +69,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
-    background-color: darkgray;
+    background-color: rgb(131, 145, 12);
     height: 100px;
     margin: 0 10%;
 }
@@ -94,19 +106,27 @@ footer {
 }
 .left1 {
     height: 100%;
-    width: 25%;
+    width: 25%;    
+    background-color: rgb(36, 29, 85);
+    color: blanchedalmond;
 }
 .left2 {
     height: 100%;
     width: 25%;
+    background-color: rgb(36, 29, 85);
+    color: blanchedalmond;
 }
 .right1 {
     height: 100%;
     width: 75%;
+    background-color: rgb(36, 29, 85);
+    color: blanchedalmond;
 }
 .right2 {
     height: 100%;
     width: 75%;
+    background-color: rgb(36, 29, 85);
+    color: blanchedalmond;
 }
 .ninja {
     text-align: center;
@@ -126,15 +146,25 @@ footer {
     background-color: yellow;
     margin: 40px;
     height: 20%;
-    width: 60%;
+    width: 130px;
     font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
 }
 .likes2 {
     background-color: yellow;
     margin: 40px;
     height: 20%;
-    width: 60%;
+    width: 130px;
     font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
 }
 .def {
     margin: 15% 20%;
@@ -147,7 +177,6 @@ footer {
     height: 25%;
     font-size: 30pt;
     background-color: rgb(44, 255, 62);
-    
 }
 .bold {
     font-weight: 600;
@@ -155,4 +184,20 @@ footer {
 .buttext {
     font-size: 40pt;
     margin: 20px;
+}
+#likes1 {
+    padding-left: 10px;
+    font-size: 20pt;
+    background-color:yellow;
+    color: black;
+    border-right: 0px;
+    width: 100px;
+}
+#likes2 {
+    padding-left: 10px;
+    font-size: 20pt;
+    background-color:yellow;
+    color: black;
+    border-right: 0px;
+    width: 100px;
 }
